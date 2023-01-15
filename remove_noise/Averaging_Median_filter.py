@@ -23,7 +23,7 @@ def filtering_images(path=Path):
 
 
 def calculate_erro(img_original, img_compared):
-    erro = img_original-img_compared
+    erro = cv2.subtract(img_original, img_compared)
     MSE = np.mean(erro)**2
     PSN = 10*log10((255**2)/MSE)
     return PSN
