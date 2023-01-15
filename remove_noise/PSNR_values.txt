@@ -1,0 +1,43 @@
+/home/frank/Imagens/imgs_original/moon_img_original.png
+For noise image version =  1
+Noise image(no filtering) PSNR =  39.48828282649982
+M = 3, PSNRs: average=9.646956585573518, median=12.759968207991522
+M = 5, PSNRs: average=8.053819571962169, median=10.205653251084122
+M = 7, PSNRs: average=7.473627758526411, median=9.55508249915355
+For noise image version =  2
+Noise image(no filtering) PSNR =  39.584106496007166
+M = 3, PSNRs: average=9.646956585573518, median=12.759968207991522
+M = 5, PSNRs: average=8.053819571962169, median=10.205653251084122
+M = 7, PSNRs: average=7.473627758526411, median=9.55508249915355
+For noise image version =  3
+Noise image(no filtering) PSNR =  6.489960783148544
+M = 3, PSNRs: average=9.646956585573518, median=12.759968207991522
+M = 5, PSNRs: average=8.053819571962169, median=10.205653251084122
+M = 7, PSNRs: average=7.473627758526411, median=9.55508249915355
+For noise image version =  4
+Noise image(no filtering) PSNR =  6.765107917774679
+M = 3, PSNRs: average=9.646956585573518, median=12.759968207991522
+M = 5, PSNRs: average=8.053819571962169, median=10.205653251084122
+M = 7, PSNRs: average=7.473627758526411, median=9.55508249915355
+/home/frank/Imagens/imgs_original/moonfull_img_original.png
+For noise image version =  1
+Noise image(no filtering) PSNR =  44.13846931331151
+M = 3, PSNRs: average=19.833162231186495, median=22.56443651633567
+M = 5, PSNRs: average=19.17943257167184, median=20.61203077031411
+M = 7, PSNRs: average=18.914287552601156, median=20.140136307896327
+For noise image version =  2
+Noise image(no filtering) PSNR =  44.17301109286876
+M = 3, PSNRs: average=19.833162231186495, median=22.56443651633567
+M = 5, PSNRs: average=19.17943257167184, median=20.61203077031411
+M = 7, PSNRs: average=18.914287552601156, median=20.140136307896327
+For noise image version =  3
+Noise image(no filtering) PSNR =  6.609403861658885
+M = 3, PSNRs: average=19.833162231186495, median=22.56443651633567
+M = 5, PSNRs: average=19.17943257167184, median=20.61203077031411
+M = 7, PSNRs: average=18.914287552601156, median=20.140136307896327
+For noise image version =  4
+Noise image(no filtering) PSNR =  7.046866767156024
+M = 3, PSNRs: average=19.833162231186495, median=22.56443651633567
+M = 5, PSNRs: average=19.17943257167184, median=20.61203077031411
+M = 7, PSNRs: average=18.914287552601156, median=20.140136307896327
+
