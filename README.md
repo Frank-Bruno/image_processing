@@ -43,7 +43,8 @@ Matriz = [[-0.16666667 -0.66666667 -0.16666667]
 
 O filtro de nitidez é um operador de nitidez simples cujo nome deriva do fato de que ele aprimora as bordas (e outros componentes de alta frequência em uma imagem) por meio de um procedimento que subtrai uma versão de nitidez ou suavizada de uma imagem da imagem original.
 
-![colocar imagem comparando a imagem original e do filtro](linkdaimagem)
+![imagem original](https://github.com/Frank-Bruno/image_processing/blob/main/enhance_contrast/moon.png)
+![imagem filtrada](https://github.com/Frank-Bruno/image_processing/blob/main/enhance_contrast/moon_unsharp.png)
 
 ### d) O seu filtro pode ser entendido como “passa-baixa” ou “passa-alta”?
 
