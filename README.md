@@ -34,9 +34,9 @@ cv2.waitKey()
 ~~~
 
 ~~~Python
-Matriz = [[-0.16666667 -0.66666667 -0.16666667]
-          [-0.66666667  4.33333333 -0.66666667]
-          [-0.16666667 -0.66666667 -0.16666667]]
+Matriz = [[ 0. -1.  0.] 
+          [-1.  5. -1.] 
+          [ 0. -1.  0.]]
 ~~~
 
 ### c) Explique o motivo do seu filtro realçar o contraste e coloque uma imagem filtrada por ele no seu relatório, junto com a original. Pode ser a própria “moon.tif” ou outra.
