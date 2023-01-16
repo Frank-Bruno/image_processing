@@ -69,6 +69,9 @@ por exemplo, com o comando:
 imnoise(im_original,'gaussian',0,0.001)
 ~~~
 No final, você deve ter 4 versões ruidosas da imagem original.\
+
+![ruido01](https://github.com/Frank-Bruno/image_processing/blob/main/Imagens/imgs_noise/moon_01.png) ![ruido02](https://github.com/Frank-Bruno/image_processing/blob/main/Imagens/imgs_noise/moon_02.png) ![ruido03](https://github.com/Frank-Bruno/image_processing/blob/main/Imagens/imgs_noise/moon_03.png) ![ruido04](https://github.com/Frank-Bruno/image_processing/blob/main/Imagens/imgs_noise/moon_04.png)
+
 Sua tarefa é usar filtros para reduzir o ruído das versões ruidosas e comparar com a imagem
 original. A figura de mérito da filtragem será a PSNR, ou “razão sinal de pico / ruido”, que
 usa como “pico” o valor máximo de um pixel que é igual a 255 neste caso. A PSNR pode
