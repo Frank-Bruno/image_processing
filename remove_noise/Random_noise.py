@@ -4,7 +4,6 @@ from skimage.util import img_as_ubyte
 from pathlib import Path
 
 def creating_noise(path=Path):
-    path = path
     im_original = cv2.imread(str(path), cv2.IMREAD_GRAYSCALE)
         
     sp_noise_01 = random_noise(im_original, mode='s&p', seed=None, clip=True, salt_vs_pepper=0.06)
@@ -19,7 +18,7 @@ def creating_noise(path=Path):
     cv2.imwrite(str(Path(path.parent,"imgs_noise",path.stem+"_04.png")), img_as_ubyte(gauss_noise_02))
 
 
-path = Path(r'/home/frank/Imagens')
+path = Path(r'/home/frank/git/image_processing/Imagens')
 lista = list(path.iterdir())
 for p in path.iterdir():
     if p.is_file():

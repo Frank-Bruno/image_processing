@@ -16,9 +16,9 @@ def filtering_images(path=Path):
 
         for i in M:
             averaging = cv2.blur(img_original,(i,i))
-            cv2.imwrite(str(Path(path.parents[1],"imgs_filtering", noise_img_name+"_0"+str(i)+"avr"+".png")),averaging)
+            cv2.imwrite(str(Path(path.parents[1],"imgs_filtering", noise_img_name+"_0"+str(i)+"_avr"+".png")),averaging)
             median = cv2.medianBlur(img_original, i) 
-            cv2.imwrite(str(Path(path.parents[1],"imgs_filtering", noise_img_name+"_0"+str(i)+"median"+".png")),median)
+            cv2.imwrite(str(Path(path.parents[1],"imgs_filtering", noise_img_name+"_0"+str(i)+"_median"+".png")),median)
             print("M = "+str(i)+", PSNRs: average="+str(calculate_erro(img_original, averaging)) + ", median=" + str(calculate_erro(img_original, median)))
 
 
@@ -28,7 +28,7 @@ def calculate_erro(img_original, img_compared):
     PSN = 10*log10((255**2)/MSE)
     return PSN
 
-path = Path(r'/home/frank/Imagens/imgs_original')
+path = Path(r'/home/frank/git/image_processing/Imagens/imgs_original')
 lista = list(path.iterdir())
 for p in path.iterdir():
     if p.is_file():
