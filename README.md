@@ -97,6 +97,52 @@ original e a imagem ruidosa após passar pelo filtro. Para ter uma ideia dos val
 envolvidos, calcule também a PSNR entre a imagem original e a versão ruidosa,
 sem passar por filtro.
 
+~~~Text
+moon_img_original.png
+For noise image version =  1
+Noise image(no filtering) PSNR =  40.044180057825855
+M = 3, PSNRs: average=46.78354176718863, median=54.0746904070814
+M = 5, PSNRs: average=43.535704352575394, median=49.36632596071769
+M = 7, PSNRs: average=41.86804817519431, median=47.46321875338759
+For noise image version =  2
+Noise image(no filtering) PSNR =  39.63749942623699
+M = 3, PSNRs: average=46.78354176718863, median=54.0746904070814
+M = 5, PSNRs: average=43.535704352575394, median=49.36632596071769
+M = 7, PSNRs: average=41.86804817519431, median=47.46321875338759
+For noise image version =  3
+Noise image(no filtering) PSNR =  42.121730224525436
+M = 3, PSNRs: average=46.78354176718863, median=54.0746904070814
+M = 5, PSNRs: average=43.535704352575394, median=49.36632596071769
+M = 7, PSNRs: average=41.86804817519431, median=47.46321875338759
+For noise image version =  4
+Noise image(no filtering) PSNR =  31.38964658742884
+M = 3, PSNRs: average=46.78354176718863, median=54.0746904070814
+M = 5, PSNRs: average=43.535704352575394, median=49.36632596071769
+M = 7, PSNRs: average=41.86804817519431, median=47.46321875338759
+
+moonfull_img_original.png
+For noise image version =  1
+Noise image(no filtering) PSNR =  44.69767334844552
+M = 3, PSNRs: average=56.60092228756595, median=58.01585597145116
+M = 5, PSNRs: average=52.40807541115476, median=53.30927181062187
+M = 7, PSNRs: average=50.41096493775384, median=51.44079302769593
+For noise image version =  2
+Noise image(no filtering) PSNR =  44.21432626270985
+M = 3, PSNRs: average=56.60092228756595, median=58.01585597145116
+M = 5, PSNRs: average=52.40807541115476, median=53.30927181062187
+M = 7, PSNRs: average=50.41096493775384, median=51.44079302769593
+For noise image version =  3
+Noise image(no filtering) PSNR =  51.27673339174787
+M = 3, PSNRs: average=56.60092228756595, median=58.01585597145116
+M = 5, PSNRs: average=52.40807541115476, median=53.30927181062187
+M = 7, PSNRs: average=50.41096493775384, median=51.44079302769593
+For noise image version =  4
+Noise image(no filtering) PSNR =  36.695695158379436
+M = 3, PSNRs: average=56.60092228756595, median=58.01585597145116
+M = 5, PSNRs: average=52.40807541115476, median=53.30927181062187
+M = 7, PSNRs: average=50.41096493775384, median=51.44079302769593
+~~~
+
 **Responda no relatório o seguinte:**
 ### a) Por que para o ruído salt & pepper o filtro de mediana é tão melhor que o de média? 
 
