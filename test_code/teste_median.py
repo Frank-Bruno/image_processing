@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Read the image
-img = cv2.imread("/home/frank/github_repositorios/image_processing/Imagens/imgs_noise/moon_01.png",cv2.COLOR_BGR2GRAY)
+img = cv2.imread("/home/frank/git/image_processing/Imagens/imgs_noise/moon_01.png",cv2.COLOR_BGR2GRAY)
 
 # Obtain the number of rows and columns
 # of the image
